@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  margin: auto;
+}
+
+.title{
+  font-style: italic;
+  width: 175px;
+  height: 51px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.loginLogo{
+  margin: auto;
+  height: 100px;
+  width: 300px;
+  background-image: url('./instaLogo.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.box{
+  border : 1px solid #CCCCCC;
+  border-radius: 10px;
+  background-color: #F5F6F7;
+  text-align: center;
+
+  padding-top: 9px;
+  padding-left: 8px;
+  padding-bottom: 7px;
+  
+  width: 280px;
+  height: 36px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
