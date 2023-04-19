@@ -1,21 +1,8 @@
 import React from "react";
 
 function box(props){
-    return (
-        <div className="box">
-            {props.name}
-        </div>
-
-    )
+    return <input className="box">{props.name}</input>;
 }
 
-function label(test){
-    return (
-        <div className="label">
-            {test.name}
-        </div>
 
-    )
-}
-
-export default {box, label};
+export default box;
